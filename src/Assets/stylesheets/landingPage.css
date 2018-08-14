@@ -75,10 +75,13 @@ p.orSignUpWith {
 .fullname {
   text-align: center;
   margin-top: 30px;
+  width: 81%;
+  display: flex;
+  margin: 0 auto;
 }
 
 input.firstName {
-  width: 37%;
+  width: 50%;
   padding: 10px;
   margin-right: 2px;
   font-size: 14px;
@@ -86,7 +89,7 @@ input.firstName {
 }
 
 input.lastname {
-  width: 37%;
+  width: 50%;
   padding: 10px;
   font-size: 14px;
   outline: none;

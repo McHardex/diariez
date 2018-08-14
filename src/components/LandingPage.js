@@ -1,6 +1,6 @@
 import React from 'react'
 import Slideshow from './Slide';
-import '../Assets/stylesheets/slider.css'
+import '../Assets/stylesheets/landingPage.css'
 import SignUpForm from './SignUpForm'
 import Timeline from './LandingPageTimeLine'
 
