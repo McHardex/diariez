@@ -1,0 +1,142 @@
+.react-slideshow-wrapper.slide {
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  box-shadow: 0 33px 100px 15px #C73A84;
+}
+
+.react-slideshow-wrapper .images-wrap div img {
+  width: 100%;
+  height: 500px;
+}
+
+.react-slideshow-container .nav:last-of-type {
+  display: none;
+}
+
+.react-slideshow-container .nav:first-of-type {
+  display: none;
+}
+/* SIGN UP CSS */
+.signUpForm {
+  height: 700px;
+  display: flex;
+  width: 55%;
+  background-color: #38464d91;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.facebookOrTwitter {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook{
+  display: flex;
+  width: 40%;
+  align-items: center;
+  background-color: #3B5997;
+  color:#fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.twitter {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  background-color: #45a4ed;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.facebook img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.twitter img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+p.orSignUpWith {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.fullname {
+  text-align: center;
+  margin-top: 30px;
+}
+
+input.firstName {
+  width: 37%;
+  padding: 10px;
+  margin-right: 2px;
+  font-size: 14px;
+  outline: none;
+}
+
+input.lastname {
+  width: 37%;
+  padding: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+input.email {
+  width: 77%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+  outline: none;
+}
+
+input.password {
+  width: 77%;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+  outline: none;
+}
+
+p.bycreating {
+  color: #fff;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+span.termsAndCondition {
+  color: #0db7e1;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #40A46E;
+  width: 80%;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* TIMELINE STYLE */
+.form_timeline {
+  display: flex;
+}
+
+.timeline {
+  width: 45%;
+  border: 1px solid red;
+}
