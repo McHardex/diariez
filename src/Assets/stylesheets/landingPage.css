@@ -1,120 +1,209 @@
-.react-slideshow-wrapper.slide {
-  width: 100%;
-  overflow: hidden;
-  height: 500px;
-  box-shadow: 0 33px 100px 15px #C73A84;
-}
-
-.react-slideshow-wrapper .images-wrap div img {
-  width: 100%;
-  height: 500px;
-}
-
-.react-slideshow-container .nav:last-of-type {
-  display: none;
-}
-
-.react-slideshow-container .nav:first-of-type {
-  display: none;
-}
-/* SIGN UP CSS */
-.signUpForm {
-  height: 700px;
+.landingPageBody {
   display: flex;
-  width: 55%;
-  background-color: #38464d91;
-  text-align: center;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timeline {
+  width: 50%;
+  height: 91vh;
+  background-color: #0084e9;
+  border-radius: 0 5px 0 0;
+}
+
+ul.contents {
+  display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: center;
+  margin: 0 10%;
+}
+
+.contents li {
+  list-style-type: circle;
+  font-size: 16px;
+  line-height: 2;
+  margin: 10px;
+  color: #fff;
+  font-family: monospace;
+}
+
+.loginSignIn {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* LOG IN */
+
+.logInForm {
+  padding: 0 15px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+p.haveAccount {
+  color: rgb(104, 99, 99);
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+span.login {
+  color: #0db7e1;
+}
+
+input.logInemail {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #9ecbe9;
+}
+
+input.logInpassword {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin: 1px 0;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  border: 1px solid #9ecbe9;
+}
+
+input.login-btn {
+  background-color: #2a9cf4;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  color: #fff;
+  border: none;
+  margin: -1px;
+  cursor: pointer;
+}
+
+.forgotPasswordLink {
+  color: rgba(85, 86, 84, 0.39);
+  text-decoration: none;
+  font-size: 12px;
+  float: right;
+  margin: 2px;
+}
+
+.forgotPasswordLink:hover {
+  text-decoration: underline;
+}
+
+/* SIGN UP CSS */
+
+.signUpForm {
+  padding: 0 15px;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .facebookOrTwitter {
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  width: 100%;
 }
 
-.facebook{
+.facebook {
   display: flex;
-  width: 40%;
+  width: 48%;
   align-items: center;
   background-color: #3B5997;
-  color:#fff;
-  font-size: 14px;
+  color: #fff;
+  padding: 0 5px;
+  font-size: 12px;
   cursor: pointer;
 }
 
 .twitter {
   display: flex;
-  width: 40%;
+  width: 48%;
   align-items: center;
+  padding: 0 5px;
   background-color: #45a4ed;
   color: #FFF;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
 }
 
 .facebook img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  max-width: 30px;
+  margin-right: 5px;
 }
 
 .twitter img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+.facebook p,
+.twitter p {
+  font-size: 12px;
+  font-family: monospace;
 }
 
 p.orSignUpWith {
-  color: #fff;
+  color: rgb(53, 51, 51);
   text-align: center;
   font-size: 15px;
-  margin-top: 30px;
-}
-
-.fullname {
-  text-align: center;
-  margin-top: 30px;
-  width: 81%;
-  display: flex;
-  margin: 0 auto;
+  margin-top: 20px;
 }
 
 input.firstName {
-  width: 50%;
-  padding: 10px;
-  margin-right: 2px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
   font-size: 14px;
   outline: none;
+  border: 1px solid #9ecbe9;
 }
 
 input.lastname {
-  width: 50%;
-  padding: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
   font-size: 14px;
   outline: none;
+  border: 1px solid #9ecbe9;
 }
 
 input.email {
-  width: 77%;
-  padding: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
   font-size: 14px;
-  margin-top: 30px;
   outline: none;
+  border: 1px solid #9ecbe9;
 }
 
 input.password {
-  width: 77%;
-  padding: 10px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
   font-size: 14px;
-  margin-top: 30px;
   outline: none;
+  border: 1px solid #9ecbe9;
 }
 
 p.bycreating {
-  color: #fff;
+  color: rgb(104, 99, 99);
   font-weight: 400;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 span.termsAndCondition {
@@ -122,24 +211,39 @@ span.termsAndCondition {
   cursor: pointer;
 }
 
-input[type="submit"] {
-  background-color: #40A46E;
-  width: 80%;
-  padding: 15px;
-  color: white;
-  font-size: 16px;
+input.signup-btn {
+  background-color: #2a9cf4;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  font-size: 14px;
   outline: none;
-  margin-top: 30px;
+  color: #fff;
   border: none;
   cursor: pointer;
 }
 
-/* TIMELINE STYLE */
-.form_timeline {
-  display: flex;
-}
-
-.timeline {
-  width: 45%;
-  border: 1px solid red;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .landingPageBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .timeline,
+  .loginSignIn {
+    width: 100%;
+    border-radius: 0;
+  }
+  .loginSignIn {
+    width: 100%;
+  }
+  .logInForm,
+  .signUpForm {
+    width: 90%
+  }
+  .facebook p,
+  .twitter p {
+    font-size: 7px;
+  }
 }

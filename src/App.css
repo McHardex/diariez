@@ -1,53 +1,48 @@
 body {
-  background-image: url("https://thumbs.dreamstime.com/b/abstract-background-black-gray-background-cracking-to-illustrate-general-49943400.jpg")
-}
-
-.App {
-  width: 1024px;
-  margin: 0 auto;
-}
-
-main {
-  background: -moz-linear-gradient(45deg, rgba(50,52,201,1) 0%, rgba(50,52,201,0.98) 10%, rgba(239,1,124,0.87) 73%, rgba(239,1,124,0.87) 75%, rgba(239,1,124,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, rgba(50,52,201,1) 0%,rgba(50,52,201,0.98) 10%,rgba(239,1,124,0.87) 73%,rgba(239,1,124,0.87) 75%,rgba(239,1,124,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, rgba(50,52,201,1) 0%,rgba(50,52,201,0.98) 10%,rgba(239,1,124,0.87) 73%,rgba(239,1,124,0.87) 75%,rgba(239,1,124,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3234c9', endColorstr='#ef017c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+  line-height: 20px;
+  margin: 0 0;
 }
 
 .App-header {
-  background-color: rgb(0, 0, 0);
-  padding: 20px;
-  height: 20px;
+  height: 4vh;
   display: flex;
+  background: #ffffff;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.App-header h1{
-  color: #F4068B;
-  font-size: 24px;
-  font-weight: 100;
-  padding: 0 100px;
+.App-header h1 {
+  color: rgb(255, 7, 98);
+  font-size: 25px;
+  font-weight: 600;
   font-family: monospace;
   cursor: pointer;
 }
 
 .navigation {
   display: flex;
-  color: white;
 }
 
-.navigation p{
-  margin: 0 10px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-  font-weight: 200;
+.navigation img {
+  margin: 0 5px;
   cursor: pointer;
+  height: 25px;
 }
 
 footer.App-footer {
-  background-color: black;
-  height: 60px;
+  background: #fff;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e6ecf0
 }
 
+.App-footer a, .App-footer p {
+  text-decoration: none;
+  color: #60606063;
+  margin: 0 10px;
+  font-size: 11px;
+  font-family: monospace;
+}
