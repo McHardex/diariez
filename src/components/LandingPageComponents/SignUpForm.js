@@ -1,15 +1,17 @@
-import React from 'react'
+import React from 'react';
+import facebookIcon from '../../assets/images/facebook-icon.png';
+import twitterIcon from '../../assets/images/twitter-icon.png';
 
 const SignUpForm = () => {
   return (
     <div className="signUpForm">
       <div className="facebookOrTwitter">
         <div className="facebook">
-        <img src="https://cdn4.iconfinder.com/data/icons/miu-gloss-social/60/facebook-512.png" alt="facebook follow icon"/>
+        <img src={ facebookIcon } alt="facebook follow icon"/>
         <p> Connect with Facebook</p>
         </div>
         <div className="twitter">
-        <img src="http://profitquery-a.akamaihd.net/website_2.0/img/blog/follow_buttons/twitter_follow_icon.png" alt="twitter follow icon"/>
+        <img src={ twitterIcon } alt="twitter follow icon"/>
         <p> Connect with Twitter</p>
         </div>
       </div>

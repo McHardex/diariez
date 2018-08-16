@@ -11,12 +11,13 @@ body {
   justify-content: space-around;
 }
 
-.App-header h1 {
+.title a {
   color: rgb(255, 7, 98);
   font-size: 25px;
   font-weight: 600;
   font-family: monospace;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navigation {
@@ -36,7 +37,7 @@ footer.App-footer {
   align-items: center;
   display: flex;
   justify-content: center;
-  border-top: 1px solid #e6ecf0
+  border-top: 1px solid #e6ecf0;
 }
 
 .App-footer a, .App-footer p {

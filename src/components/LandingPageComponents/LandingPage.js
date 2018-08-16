@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../Assets/stylesheets/landingPage.css'
+import '../../assets/stylesheets/landingPage.css'
 import SignUpForm from './SignUpForm'
 import LogInForm from './LogInForm'
 import LandingPageTimeline from './LandingPageTimeLine'

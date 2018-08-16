@@ -7,9 +7,8 @@
 
 .timeline {
   width: 50%;
-  height: 91vh;
+  height: 90vh;
   background-color: #0084e9;
-  border-radius: 0 5px 0 0;
 }
 
 ul.contents {
@@ -18,6 +17,16 @@ ul.contents {
   height: 100%;
   justify-content: center;
   margin: 0 10%;
+}
+
+.contents h1 {
+  color: rgba(235, 240, 251, 0.62);
+  font-size: 30px;
+  font-weight: 600;
+  font-family: monospace;
+  position: relative;
+  bottom: 20px;
+  line-height: 1;
 }
 
 .contents li {
@@ -48,10 +57,12 @@ p.haveAccount {
   color: rgb(104, 99, 99);
   font-weight: 400;
   margin-top: 20px;
+  font-family: monospace;
 }
 
-span.login {
+.login {
   color: #0db7e1;
+  text-decoration: none;
 }
 
 input.logInemail {
@@ -93,6 +104,7 @@ input.login-btn {
   text-decoration: none;
   font-size: 12px;
   float: right;
+  font-family: monospace;
   margin: 2px;
 }
 
@@ -158,6 +170,7 @@ p.orSignUpWith {
   text-align: center;
   font-size: 15px;
   margin-top: 20px;
+  font-family: monospace;
 }
 
 input.firstName {
@@ -204,11 +217,13 @@ p.bycreating {
   color: rgb(104, 99, 99);
   font-weight: 400;
   margin-top: 20px;
+  font-family: monospace;
 }
 
 span.termsAndCondition {
   color: #0db7e1;
   cursor: pointer;
+  font-family: monospace;
 }
 
 input.signup-btn {

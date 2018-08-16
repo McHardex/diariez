@@ -1,0 +1,113 @@
+.loginPageContent {
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid #99959552;
+  background: #fff;
+  margin-top: 15px;
+}
+
+.LoginPageBody {
+  min-height: 90vh;
+  background: #e6ecf0;
+}
+
+h1.loginTo {
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+  line-height: 2;
+}
+
+form.loginPage {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+input.loginEmail {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px 0;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  border: 1px solid #9ecbe9;
+}
+
+input.loginPassword {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px 0;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  border: 1px solid #9ecbe9;
+}
+
+input.login-submit {
+  background-color: #2a9cf4;
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  color: #fff;
+  border: none;
+  margin: -1px;
+  cursor: pointer;
+}
+
+.pass-forget {
+  color: rgba(85, 86, 84, 0.39);
+  text-decoration: none;
+  text-align: end;
+  font-size: 12px;
+  font-family: monospace;
+  margin: 2px;
+}
+
+.pass-forget:hover {
+  text-decoration: underline;
+}
+
+.newToDiariez {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  background: #f5f8fa;
+}
+
+.newToDiariez p {
+  font-family: monospace;
+  color: #8d7979;
+}
+
+.newToDiariez a {
+  color: #0886e8;
+  text-decoration: none;
+}
+
+.newToDiariez a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .loginPageContent {
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+
+  .LoginPageBody {
+    background: #fff;
+  }
+}
