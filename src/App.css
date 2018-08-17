@@ -28,6 +28,15 @@ body {
   margin: 0 5px;
   cursor: pointer;
   height: 25px;
+  filter: gray;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.navigation img:hover {
+  filter: none;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
 }
 
 footer.App-footer {

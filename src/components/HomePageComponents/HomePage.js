@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import { connect } from 'react-redux';
 
 const mapStateToProps = state => ({
@@ -11,10 +9,9 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="homePageBody">
-        <Header appName={this.props.appName}/>
         <main>
+          <p>this is the would be home page</p>
         </main>
-        <Footer/>
       </div>
     );
   }

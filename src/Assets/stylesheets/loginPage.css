@@ -28,7 +28,6 @@ form.loginPage {
 input.loginEmail {
   padding: 12px 20px;
   box-sizing: border-box;
-  border-radius: 20px;
   margin: 20px 0;
   font-size: 14px;
   background: #fff;
@@ -40,7 +39,6 @@ input.loginPassword {
   width: 100%;
   padding: 12px 20px;
   box-sizing: border-box;
-  border-radius: 20px;
   margin: 20px 0;
   font-size: 14px;
   background: #fff;
@@ -59,6 +57,7 @@ input.login-submit {
   border: none;
   margin: -1px;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .pass-forget {

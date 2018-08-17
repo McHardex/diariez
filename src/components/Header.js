@@ -11,7 +11,7 @@ class Header extends React.Component {
       <header className="App-header">
         <h1 className="title"><Link to="/">{this.props.appName}</Link></h1>
         <div className="navigation">
-          <img src={remainder} title="remainder" alt="remainder"/>
+          <img src={remainder} title="remainder" alt="remainder"/> 
           <img src={profile} title="profile" alt="profile"/>
           <img src={events} title="events" alt="events"/>
           <img src={about} title="about" alt="about"/>

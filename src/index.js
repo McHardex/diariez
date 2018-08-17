@@ -12,6 +12,7 @@ import LandingPage from './components/LandingPageComponents/LandingPage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
 import PasswordReset from './components/PasswordReset';
+import HomePage from './components/HomePageComponents/HomePage';
 
 
 const store = createStore(
@@ -33,6 +34,7 @@ ReactDOM.render((
         <Route path="login" component={LoginPage} />
         <Route path="signup" component={SignupPage} />
         <Route path="pw-forget" component={PasswordReset} />
+        <Route path="home" component={HomePage} />
       </Route>
     </Router>
   </Provider>
