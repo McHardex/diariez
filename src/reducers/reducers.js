@@ -1,16 +1,8 @@
-// import { combineReducers } from 'redux'
+import { combineReducers } from 'redux'
+import { appStates } from './authReducer';
 
-const defaultState = {
-  appName: 'Diariez...',
-  timelines: null
-};
-
-const reducers = function(state = defaultState, action) {
-      return state;
-};
-
-// const reducers = combineReducers({
-//   reducer
-// })
+const reducers = combineReducers({
+  appStates
+})
 
 export { reducers}

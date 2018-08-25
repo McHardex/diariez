@@ -10,7 +10,6 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import LandingPage from './components/LandingPageComponents/LandingPage';
 import LoginPage from './components/LoginPage';
-import SignupPage from './components/SignupPage';
 import PasswordReset from './components/PasswordReset';
 import HomePage from './components/HomePageComponents/HomePage';
 
@@ -32,7 +31,6 @@ ReactDOM.render((
       <Route path="/" component={App}>
         <IndexRoute component={LandingPage} />
         <Route path="login" component={LoginPage} />
-        <Route path="signup" component={SignupPage} />
         <Route path="pw-forget" component={PasswordReset} />
         <Route path="home" component={HomePage} />
       </Route>

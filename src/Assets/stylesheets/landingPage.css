@@ -226,7 +226,7 @@ span.termsAndCondition {
   font-family: monospace;
 }
 
-input.signup-btn {
+button.signup-btn {
   background-color: #2a9cf4;
   width: 100%;
   padding: 12px 20px;

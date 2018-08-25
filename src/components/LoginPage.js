@@ -17,7 +17,7 @@ class LoginPage extends React.Component {
             <Link to="pw-forget" className="pass-forget">Forgot password?</Link>
           </form>
           <div className="newToDiariez">
-            <p>New to Diariez...? <Link to="signup">
+            <p>New to Diariez...? <Link to="/">
                create account
            </Link></p>
           </div>
