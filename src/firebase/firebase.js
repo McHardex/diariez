@@ -1,7 +1,8 @@
 import firebase from 'firebase';
+import api from '../safety'
 
 const config = {
-  apiKey: "AIzaSyCuKwpGf23Pex6lj3ZP2vJaO0ubME1c4xQ",
+  api,
   authDomain: "diariez-27fa1.firebaseapp.com",
   databaseURL: "https://diariez-27fa1.firebaseio.com",
   projectId: "diariez-27fa1",
